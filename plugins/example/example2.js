@@ -1,7 +1,7 @@
 const example = async (m, { conn }) => {
 
 await conn.sendButton(m.chat, {
-  imageUrl: "https://i.pinimg.com/736x/f3/5d/2e/f35d2ed376e03aa254e7f34b4b94992e.jpg",
+  imageUrl: "https://files.catbox.moe/4gchpq.jpg",
   bodyText: "Hello! This is the message text",
   footerText: "Footer text",
   buttons: [
@@ -39,8 +39,8 @@ await conn.sendButton(m.chat, {
   ],
   mentions: [m.sender],
   newsletter: {
-      name: '𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️',
-      jid: '120363225356834044@newsletter'
+      name: '✦『 𝑻𝒘𝒊𝒍𝒊𝒈𝒉𝒕 𝑻𝒆𝒂𝒎 』✦',
+      jid: '120363409255768764@newsletter'
     },
   interactiveConfig: {
     buttons_limits: 10,
