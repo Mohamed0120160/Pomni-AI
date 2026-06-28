@@ -74,14 +74,14 @@ export default async function before(m, { conn }) {
                 isForwarded: true,
                 forwardingScore: 1,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363225356834044@newsletter',
-                    newsletterName: '𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️',
+                    newsletterJid: '120363409255768764@newsletter',
+                    newsletterName: '✦『 𝑻𝒘𝒊𝒍𝒊𝒈𝒉𝒕 𝑻𝒆𝒂𝒎 』✦',
                     serverMessageId: 0
                 },
                 externalAdReply: {
-                    title: "𝐏𝐎𝐌𝐍𝐈-𝐀𝐈 🎪 | السيرك الرقمي",
+                    title: "Simo 🎪 | السيرك الرقمي",
                     body: "تـرقـيـة فـي الـسـيـرك",
-                    thumbnailUrl: "https://i.pinimg.com/originals/81/89/fd/8189fd909bbae4ba4e8f1d940f500a60.jpg",
+                    thumbnailUrl: "https://files.catbox.moe/4gchpq.jpg",
                     sourceUrl: '',
                     mediaType: 1,
                     renderLargerThumbnail: true

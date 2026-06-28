@@ -48,7 +48,7 @@ const handler = async (m, { conn, command }) => {
     user.xp = (user.xp || 0) + reward.xp;
     user.cookies = (user.cookies || 0) + reward.cookies;
     
-    const profilePic = await conn.profilePictureUrl(m.sender, 'image').catch(() => 'https://i.pinimg.com/originals/11/26/97/11269786cdb625c60213212aa66273a9.png');
+    const profilePic = await conn.profilePictureUrl(m.sender, 'image').catch(() => 'https://files.catbox.moe/4gchpq.jpg');
     
     const msg = `╭─┈─┈─┈─⟞${reward.border}⟝─┈─┈─┈─╮
 ┃ *🎁 هـديـة ${reward.name} 🎁*
@@ -71,8 +71,8 @@ const handler = async (m, { conn, command }) => {
             isForwarded: true,
             forwardingScore: 1,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363225356834044@newsletter',
-                newsletterName: '𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️',
+                newsletterJid: '120363409255768764@newsletter,
+                newsletterName: '✦『 𝑻𝒘𝒊𝒍𝒊𝒈𝒉𝒕 𝑻𝒆𝒂𝒎 』✦',
                 serverMessageId: 0
             }
         }
