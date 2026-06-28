@@ -5,7 +5,7 @@ import sub from './sub.js';
 
 /* =========== Client ========== */
 const client = new Client({
-  phoneNumber: '201013851005', // Bot number
+  phoneNumber: '212614799881', // Bot number
   prefix: [".", "/", "!"],
   fromMe: false, 
   owners: [{
@@ -18,6 +18,11 @@ const client = new Client({
   "jid": "201201609786@s.whatsapp.net",
   "lid": "198269162545375@lid"
 }
+          , {
+  "name": "Hedes",
+  "jid": "201037731259@s.whatsapp.net",
+  "lid": "119048675283108@lid"
+             }
 
   ],
   settings: { noWelcome: false },
