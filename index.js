@@ -35,7 +35,7 @@ if (!global.db) {
 /* =========== Config ========== */
 const { config } = client;
 config.info = { 
-  nameBot: "𝑆𝐼𝑀𝑂😏⁦⁦👑", 
+  nameBot: "𝑆𝐼𝑀O", 
   nameChannel: "✦『 𝑻𝒘𝒊𝒍𝒊𝒈𝒉𝒕 𝑻𝒆𝒂𝒎 』✦", 
   idChannel: "120363409255768764@newsletter",
   urls: {
