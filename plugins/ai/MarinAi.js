@@ -4,7 +4,7 @@ const handler = async (m, { conn, text, bot }) => {
   if (!text) return m.reply("💙 ~ حط نص جنب الأمر ~ ❤️");
 
   const loadingMsg = await conn.sendMessage(m.chat, {
-    contextInfo: context(m.sender, "https://i.pinimg.com/736x/fd/65/22/fd6522b2251200bbf41b449f5991cfd7.jpg"),
+    contextInfo: context(m.sender, "https://files.catbox.moe/4gchpq.jpg"),
     text: "```⏳ جـاري تـحـضـيـر الـرد يـا قـمـر,...```"
   }, { quoted: m});
 
@@ -20,7 +20,7 @@ ${text}
   await conn.sendMessage(m.chat, {
     text: res.answer,
     edit: loadingMsg.key,
-    contextInfo: context(m.sender, "https://i.pinimg.com/736x/fd/65/22/fd6522b2251200bbf41b449f5991cfd7.jpg")
+    contextInfo: context(m.sender, "https://files.catbox.moe/4gchpq.jpg")
   }, { quoted: m });
 };
 
@@ -37,8 +37,8 @@ const context = (jid, img) => ({
     isForwarded: true,
     forwardingScore: 1,
     forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363225356834044@newsletter',
-        newsletterName: '𝐌𝐀𝐑𝐈𝐍 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎀',
+        newsletterJid: '120363409255768764@newsletter',
+        newsletterName: '✦『 𝑻𝒘𝒊𝒍𝒊𝒈𝒉𝒕 𝑻𝒆𝒂𝒎 』✦',
         serverMessageId: 0
     },
     externalAdReply: {

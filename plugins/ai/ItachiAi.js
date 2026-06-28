@@ -4,7 +4,7 @@ const handler = async (m, { conn, text, bot }) => {
   if (!text) return m.reply("🍥 ~ حط نص جنب الأمر ~ 👁️");
 
   const loadingMsg = await conn.sendMessage(m.chat, {
-    contextInfo: context(m.sender, "https://qu.ax/x/8maEs.jpg"),
+    contextInfo: context(m.sender, "https://files.catbox.moe/4gchpq.jpg"),
     text: "```⏳ اطـمـن، أنـا مـوجـود هـنـا...```"
   }, { quoted: m});
 
@@ -21,7 +21,7 @@ ${text}
   await conn.sendMessage(m.chat, {
     text: res.answer,
     edit: loadingMsg.key,
-    contextInfo: context(m.sender, "https://qu.ax/x/8maEs.jpg")
+    contextInfo: context(m.sender, "https://files.catbox.moe/4gchpq.jpg")
   });
 };
 
@@ -36,12 +36,12 @@ const context = (jid, img) => ({
     isForwarded: true,
     forwardingScore: 1,
     forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363225356834044@newsletter',
-        newsletterName: '𝐈𝐓𝐀𝐂𝐇𝐈 ~ 𝐀𝐤𝐚𝐭𝐬𝐮𝐤𝐢 🍂',
+        newsletterJid: '120363409255768764@newsletter',
+        newsletterName: '✦『 𝑻𝒘𝒊𝒍𝒊𝒈𝒉𝒕 𝑻𝒆𝒂𝒎 』✦ 🍂',
         serverMessageId: 0
     },
     externalAdReply: {
-        title: "𝐍𝐀𝐑𝐔𝐓𝐎 🍥 | 𝐀𝐤𝐚𝐭𝐬𝐮𝐤𝐢 𝐋𝐞𝐠𝐞𝐧𝐝",
+        title: "Naruto🍥 | 𝐀𝐤𝐚𝐭𝐬𝐮𝐤𝐢 𝐋𝐞𝐠𝐞𝐧𝐝",
         body: "𝙷𝚖... 𝚒𝚗𝚝𝚎𝚛𝚎𝚜𝚝𝚒𝚗𝚐 ~ ☆ 𝙸'𝚖 𝚗𝚘𝚝 𝚒𝚗𝚝𝚎𝚛𝚎𝚜𝚝𝚎𝚍",
         thumbnailUrl: img,
         sourceUrl: '',
